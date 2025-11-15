@@ -1,0 +1,69 @@
+|Counter_Binary
+clk50mhz => frequency_Divider:Instance1.clk_i
+rst => frequency_Divider:Instance1.rst_i
+rst => num[0].ACLR
+rst => num[1].ACLR
+rst => num[2].ACLR
+rst => num[3].ACLR
+leds[0] <= num[0].DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= num[1].DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= num[2].DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= num[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter_Binary|frequency_divider:Instance1
+clk_i => s_out.CLK
+clk_i => count[0].CLK
+clk_i => count[1].CLK
+clk_i => count[2].CLK
+clk_i => count[3].CLK
+clk_i => count[4].CLK
+clk_i => count[5].CLK
+clk_i => count[6].CLK
+clk_i => count[7].CLK
+clk_i => count[8].CLK
+clk_i => count[9].CLK
+clk_i => count[10].CLK
+clk_i => count[11].CLK
+clk_i => count[12].CLK
+clk_i => count[13].CLK
+clk_i => count[14].CLK
+clk_i => count[15].CLK
+clk_i => count[16].CLK
+clk_i => count[17].CLK
+clk_i => count[18].CLK
+clk_i => count[19].CLK
+clk_i => count[20].CLK
+clk_i => count[21].CLK
+clk_i => count[22].CLK
+clk_i => count[23].CLK
+clk_i => count[24].CLK
+rst_i => s_out.ACLR
+rst_i => count[0].ACLR
+rst_i => count[1].ACLR
+rst_i => count[2].ACLR
+rst_i => count[3].ACLR
+rst_i => count[4].ACLR
+rst_i => count[5].ACLR
+rst_i => count[6].ACLR
+rst_i => count[7].ACLR
+rst_i => count[8].ACLR
+rst_i => count[9].ACLR
+rst_i => count[10].ACLR
+rst_i => count[11].ACLR
+rst_i => count[12].ACLR
+rst_i => count[13].ACLR
+rst_i => count[14].ACLR
+rst_i => count[15].ACLR
+rst_i => count[16].ACLR
+rst_i => count[17].ACLR
+rst_i => count[18].ACLR
+rst_i => count[19].ACLR
+rst_i => count[20].ACLR
+rst_i => count[21].ACLR
+rst_i => count[22].ACLR
+rst_i => count[23].ACLR
+rst_i => count[24].ACLR
+out_o <= s_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
