@@ -1,0 +1,7 @@
+
+State Machine - |StateMachineProject|StateVariable
+Name StateVariable.STATE4 StateVariable.STATE3 StateVariable.STATE2 StateVariable.STATE1 
+StateVariable.STATE1 0 0 0 0 
+StateVariable.STATE2 0 0 1 1 
+StateVariable.STATE3 0 1 0 1 
+StateVariable.STATE4 1 0 0 1 
