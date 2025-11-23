@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "motor_ena",
+					"strict" : false
+				},
+				{
+					"name" : "motor_in1",
+					"strict" : false
+				},
+				{
+					"name" : "motor_in2",
+					"strict" : false
+				},
+				{
+					"name" : "leds_n[1]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_n[2]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_n[3]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_n[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RS",
+					"strict" : false
+				},
+				{
+					"name" : "ENA",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_LCD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_LCD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_LCD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_LCD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_LCD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_LCD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_LCD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_LCD[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "btn_cw_n",
+					"strict" : false
+				},
+				{
+					"name" : "btn_ccw_n",
+					"strict" : false
+				},
+				{
+					"name" : "btn_vel_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+
+State Machine - |Top_module_project|motor_control_lcd:inst_motor|estado_destino
+Name estado_destino.ESPERA_SEGURIDAD estado_destino.DIR_CCW estado_destino.DIR_CW estado_destino.DIR_STOP 
+estado_destino.DIR_STOP 0 0 0 0 
+estado_destino.DIR_CW 0 0 1 1 
+estado_destino.DIR_CCW 0 1 0 1 
+estado_destino.ESPERA_SEGURIDAD 1 0 0 1 
+
+State Machine - |Top_module_project|motor_control_lcd:inst_motor|estado_dir
+Name estado_dir.ESPERA_SEGURIDAD estado_dir.DIR_CCW estado_dir.DIR_CW estado_dir.DIR_STOP 
+estado_dir.DIR_STOP 0 0 0 0 
+estado_dir.DIR_CW 0 0 1 1 
+estado_dir.DIR_CCW 0 1 0 1 
+estado_dir.ESPERA_SEGURIDAD 1 0 0 1 
+
+State Machine - |Top_module_project|motor_control_lcd:inst_motor|estado_vel
+Name estado_vel.VEL_MAX estado_vel.VEL_MEDIA estado_vel.VEL_BAJA estado_vel.APAGADO 
+estado_vel.APAGADO 0 0 0 0 
+estado_vel.VEL_BAJA 0 0 1 1 
+estado_vel.VEL_MEDIA 0 1 0 1 
+estado_vel.VEL_MAX 1 0 0 1 
